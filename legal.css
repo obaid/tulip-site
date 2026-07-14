@@ -1,0 +1,47 @@
+/* ===== Tulip legal pages (Terms / Privacy) — dark, matches the landing ===== */
+body.legal{background:var(--bg);color:var(--txt);min-height:100vh}
+.legal .aura{position:fixed;border-radius:50%;filter:blur(120px);opacity:.5;z-index:0;pointer-events:none}
+.legal .aura.a1{width:520px;height:520px;background:radial-gradient(circle,rgba(124,102,255,.4),transparent 70%);top:-160px;left:-120px}
+.legal .aura.a2{width:440px;height:440px;background:radial-gradient(circle,rgba(192,107,255,.28),transparent 70%);top:200px;right:-140px}
+
+.legal header{position:sticky;top:0;z-index:60;backdrop-filter:blur(18px) saturate(150%);
+  background:rgba(7,6,13,.72);border-bottom:1px solid var(--line)}
+.legal .nav{height:66px}
+.legal .back{font-size:14px;color:var(--muted);font-weight:500;transition:color .18s}
+.legal .back:hover{color:var(--txt)}
+
+.legal main{position:relative;z-index:3}
+.doc-wrap{max-width:760px;margin:0 auto;padding:64px 26px 40px}
+.doc-head{margin-bottom:44px}
+.doc-head .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--violet-2);background:rgba(124,102,255,.08);
+  border:1px solid rgba(124,102,255,.2);padding:6px 14px;border-radius:999px;margin-bottom:22px}
+.doc-head h1{font-family:var(--disp);font-weight:700;font-size:clamp(34px,6vw,52px);line-height:1.02;letter-spacing:-.03em}
+.doc-head .updated{margin-top:14px;color:var(--faint);font-size:14px}
+.doc-head .lede{margin-top:20px;color:var(--muted);font-size:17px;line-height:1.6}
+
+.legal-body{font-size:15.5px;line-height:1.72;color:#d9d7e6}
+.legal-body h2{font-family:var(--disp);font-weight:600;font-size:21px;letter-spacing:-.01em;color:var(--txt);
+  margin:44px 0 14px;padding-top:20px;border-top:1px solid var(--line)}
+.legal-body h3{font-weight:600;font-size:16px;color:var(--txt);margin:26px 0 8px}
+.legal-body p{margin:0 0 14px}
+.legal-body ul{margin:0 0 16px;padding-left:22px}
+.legal-body li{margin:0 0 8px}
+.legal-body a{color:var(--violet-2);text-decoration:underline;text-underline-offset:2px;text-decoration-color:rgba(139,123,255,.4)}
+.legal-body a:hover{text-decoration-color:var(--violet-2)}
+.legal-body strong{color:var(--txt);font-weight:600}
+.legal-body .callout{background:rgba(124,102,255,.06);border:1px solid rgba(124,102,255,.18);
+  border-radius:14px;padding:18px 20px;margin:20px 0}
+.legal-body .callout p:last-child{margin-bottom:0}
+.legal-body table{width:100%;border-collapse:collapse;margin:8px 0 20px;font-size:14.5px}
+.legal-body th,.legal-body td{text-align:left;padding:11px 14px;border:1px solid var(--line);vertical-align:top}
+.legal-body th{background:rgba(255,255,255,.03);font-weight:600;color:var(--txt);font-family:var(--disp)}
+.legal-body .yes{color:#7ee0a6}.legal-body .no{color:#ff8a9b}
+
+.legal footer{border-top:1px solid var(--line);margin-top:40px}
+.legal .foot{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:30px 26px;
+  max-width:760px;margin:0 auto}
+.legal .foot .fl{display:flex;gap:22px;flex-wrap:wrap;font-size:14px}
+.legal .foot .fl a{color:var(--muted);transition:color .18s}
+.legal .foot .fl a:hover{color:var(--txt)}
+.legal .foot .cr{color:var(--faint);font-size:13px}

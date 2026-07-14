@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Tulip</title>
+        <item>
+            <title>0.1.2</title>
+            <pubDate>Sat, 04 Jul 2026 21:05:41 -0700</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/obaid/tulip-releases/releases/download/downloads/Tulip-0.1.2.dmg" length="6754156" type="application/octet-stream" sparkle:edSignature="fiuYCX7thqgkX3Hgvf+pnpBPVMnalBuxBH0K6EJ0mHnBcUeVkeOMkIVDASMn41lZZAAVdIoznIa2YsX9R6FKDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/obaid/tulip-releases/releases/download/downloads/Tulip3-2.delta" sparkle:deltaFrom="2" length="363466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z5NDIwSvwfe//mWMm+jMnW1vUQUlKnShCi4tK8WutO68/Gl2Yh8vd323vaX6qTiIjg4fXTGnIxORrSlOwvAtDQ=="/>
+                <enclosure url="https://github.com/obaid/tulip-releases/releases/download/downloads/Tulip3-1.delta" sparkle:deltaFrom="1" length="402110" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wmI0mZK6V8o+vphA2YoycMc7exlmoNMyBv+ZL1BXBcp5bZSyyD2zvVyVOPCWEIFZOmzNgwluaxHSa49YWa00AQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.1</title>
+            <pubDate>Sat, 04 Jul 2026 11:46:02 -0700</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/obaid/tulip-releases/releases/download/downloads/Tulip-0.1.1.dmg" length="6750096" type="application/octet-stream" sparkle:edSignature="4kGFVlN9Wd+Ggh5mDoJVzRU1wWsuOObsQNQkUaES8C0SAtYeogl8DkLGa/4EK5+1p5Lp6oHeG2qi0Tcl80SDBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/obaid/tulip-releases/releases/download/downloads/Tulip2-1.delta" sparkle:deltaFrom="1" length="403014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VHptSwo5K8vsb3okQNmf9BzR6c1XC/FyEeyUaQD9dReqb4xkpK8fJ4KVvQdbcoH5wTiwbmcJkqEX/XANAWamBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Fri, 03 Jul 2026 16:42:08 -0700</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/obaid/tulip-releases/releases/download/downloads/Tulip-0.1.0.dmg" length="6757529" type="application/octet-stream" sparkle:edSignature="1fs9nNUizfestlz4d1QmJU4QhbQdwaXgCeQ+sphKmhiJ7wH5y4npxY5/8RExYckv3xNa1v/3uOFzFvbYvGSaDA=="/>
+        </item>
+    </channel>
+</rss>
